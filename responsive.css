@@ -1,0 +1,57 @@
+@media (max-width: 768px) {
+    .navbar {
+        flex-wrap: wrap;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
+
+    .home {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .home h1 {
+        font-size: 40px;
+    }
+
+    .buttons {
+        justify-content: center;
+    }
+
+    .profile img {
+        width: 230px;
+        height: 270px;
+    }
+
+    .project-container {
+        grid-template-columns: 1fr;
+        width: 100%;
+        max-width: 400px;
+        gap: 12px;
+    }
+
+    .project-image {
+        height: 110px;
+    }
+
+    .project-content {
+        padding: 10px;
+    }
+
+    .section-title {
+        font-size: 30px;
+    }
+}
